@@ -1,0 +1,16 @@
+target
+node_modules
+bower_components
+coverage
+build
+.git
+.svn
+.hg
+.sass-cache
+_build
+deps
+rel
+tmp
+ebin
+vendor/bundle
+*.rbi

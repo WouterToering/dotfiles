@@ -1,0 +1,9 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "go",
+    "python",
+    "json"
+  ],
+  "suggest.noselect": true,
+  "coc.preferences.jumpCommand": "vsplit"
+}
