@@ -1,46 +1,190 @@
 {
-    "workbench.startupEditor": "newUntitledFile",
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
-    "python.formatting.provider": "black",
-    "editor.formatOnSave": true,
-    "editor.fontFamily": "'Jetbrains mono nl', arial, 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-    "editor.lineHeight": 20,
-    "workbench.activityBar.visible": true,
-    "python.showStartPage": false,
-    "editor.lineNumbers": "relative",
-    "window.menuBarVisibility": "toggle",
-    "workbench.editor.showIcons": false,
-    "workbench.iconTheme": null,
-    "files.exclude": {
-        "**/__pycache__/**": true
-    },
-    "explorer.decorations.colors": false,
-    "testExplorer.showOnRun": true,
-    "pythonTestExplorer.testFramework": "pytest",
-    "python.experiments.enabled": false,
-    "python.testing.pytestEnabled": true,
-    "testExplorer.codeLens": false,
-    "testExplorer.errorDecoration": false,
-    "testExplorer.addToEditorContextMenu": true,
-    "testExplorer.showCollapseButton": false,
-    "editor.codeLens": false,
-    "editor.hover.delay": 200,
-    "npm.fetchOnlinePackageInfo": false,
-    "workbench.editorAssociations": [
+  "workbench.startupEditor": "newUntitledFile",
+  "python.formatting.provider": "black",
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "'Jetbrains mono nl', monospace",
+  "terminal.integrated.fontFamily": "'Jetbrains mono nl', monospace",
+  "editor.fontWeight": "500",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 17,
+  "editor.lineNumbers": "relative",
+  "workbench.editor.showIcons": false,
+  "workbench.editor.tabCloseButton": "off",
+  "workbench.iconTheme": null,
+  "files.exclude": {
+    "**/__pycache__/**": true
+  },
+  "explorer.decorations.colors": false,
+  "python.experiments.enabled": false,
+  "python.testing.pytestEnabled": true,
+  "editor.codeLens": true,
+  "editor.hover.delay": 200,
+  "npm.fetchOnlinePackageInfo": false,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "editor.renderWhitespace": "trailing",
+  "editor.rulers": [
+    88
+  ],
+  "editor.minimap.maxColumn": 88,
+  "editor.minimap.renderCharacters": false,
+  "vim.useSystemClipboard": true,
+  "explorer.confirmDragAndDrop": false,
+  "go.toolsManagement.autoUpdate": true,
+  "editor.tabSize": 2,
+  "editor.tokenColorCustomizations": {
+    "[GitHub Light Colorblind (Beta)]": {
+      "textMateRules": [
         {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
+          "scope": [
+            "entity.name.function.go",
+            "entity.name.type.go"
+          ],
+          "settings": {
+            "foreground": "#0550AE",
+          }
         }
-    ],
-    "editor.renderWhitespace": "trailing",
-    "editor.rulers": [
-        88
-    ],
-    "editor.minimap.maxColumn": 88,
-    "editor.minimap.renderCharacters": false,
-    "editor.minimap.enabled": false,
-    "vim.useSystemClipboard": true,
-    "workbench.colorTheme": "GitHub Light",
-    "explorer.confirmDragAndDrop": false
+      ]
+    },
+    "[Nord Light]": {
+      "textMateRules": [
+        {
+          "scope": [
+            "keyword.operator",
+          ],
+          "settings": {
+            "foreground": "#000",
+          }
+        },
+        {
+          "scope": [
+            "keyword.operator.address.go",
+          ],
+          "settings": {
+            "foreground": "#CB5C69",
+          }
+        }
+      ],
+    },
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "storage.type.function.python",
+          "variable.language.special.self.python",
+          "variable.parameter.function.language.special.self.python",
+          "comment.block",
+          "comment.block.documentation",
+          "comment.line",
+          "constant",
+          "constant.character",
+          "constant.character.escape",
+          "constant.numeric",
+          "constant.numeric.integer",
+          "constant.numeric.float",
+          "constant.numeric.hex",
+          "constant.numeric.octal",
+          "constant.other",
+          "constant.regexp",
+          "constant.rgb-value",
+          "emphasis",
+          "entity",
+          "entity.name",
+          "entity.name.class",
+          "entity.name.function",
+          "entity.name.method",
+          "entity.name.section",
+          "entity.name.selector",
+          "entity.name.tag",
+          "entity.name.type",
+          "entity.other",
+          "entity.other.attribute-name",
+          "entity.other.inherited-class",
+          "invalid",
+          "invalid.deprecated",
+          "invalid.illegal",
+          "keyword",
+          "keyword.control",
+          "keyword.operator",
+          "keyword.operator.new",
+          "keyword.operator.assignment",
+          "keyword.operator.arithmetic",
+          "keyword.operator.logical",
+          "keyword.other",
+          "markup",
+          "markup.bold",
+          "markup.changed",
+          "markup.deleted",
+          "markup.heading",
+          "markup.inline.raw",
+          "markup.inserted",
+          "markup.italic",
+          "markup.list",
+          "markup.list.numbered",
+          "markup.list.unnumbered",
+          "markup.other",
+          "markup.quote",
+          "markup.raw",
+          "markup.underline",
+          "markup.underline.link",
+          "meta",
+          "meta.block",
+          "meta.cast",
+          "meta.class",
+          "meta.function",
+          "meta.function-call",
+          "meta.preprocessor",
+          "meta.return-type",
+          "meta.selector",
+          "meta.tag",
+          "meta.type.annotation",
+          "meta.type",
+          "punctuation.definition.string.begin",
+          "punctuation.definition.string.end",
+          "punctuation.separator",
+          "punctuation.separator.continuation",
+          "punctuation.terminator",
+          "storage",
+          "storage.modifier",
+          "storage.type",
+          "string",
+          "string.interpolated",
+          "string.other",
+          "string.quoted",
+          "string.quoted.double",
+          "string.quoted.other",
+          "string.quoted.single",
+          "string.quoted.triple",
+          "string.regexp",
+          "string.unquoted",
+          "strong",
+          "support",
+          "support.class",
+          "support.constant",
+          "support.function",
+          "support.other",
+          "support.type",
+          "support.type.property-name",
+          "support.variable",
+          "variable",
+          "variable.language",
+          "variable.name",
+          "variable.other",
+          "variable.other.readwrite",
+          "variable.parameter"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "editor.wordWrap": "on",
+  "customizeUI.titleBar": "inline",
+  "window.titleBarStyle": "native",
+  "customizeUI.moveStatusbar": true,
+  "customizeUI.activityBarHideSettings": true,
+  "editor.minimap.enabled": false,
+  "workbench.colorTheme": "Monochrome Light Amplified"
 }
